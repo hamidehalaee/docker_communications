@@ -3,5 +3,12 @@ i am trying to make connection between 2 containers of docker and communicate me
 ## Installation
 
 ```bash
-$ npm install
+$ docker pull rabbitmq:3-management
 ```
+
+## running
+
+```bash
+$ docker run --rm -it --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+```
+
