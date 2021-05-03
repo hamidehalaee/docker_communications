@@ -19,4 +19,4 @@ $ docker run --rm -it --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:
 ```bash
  http://localhost:15672 
 ```
- 
+ We now have an instance of RabbitMQ server.
