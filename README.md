@@ -12,4 +12,11 @@ $ docker pull rabbitmq:3-management
 ```bash
 $ docker run --rm -it --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 ```
+ the port 5672 is used for the RabbitMQ client connections, and the port 15672 is for the RabbitMQ management website
+ 
+ ## Open in browser
 
+```bash
+$ http://localhost:15672 
+```
+ 
