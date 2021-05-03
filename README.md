@@ -17,6 +17,6 @@ $ docker run --rm -it --hostname my-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:
  ## Open in browser
 
 ```bash
-$ http://localhost:15672 
+ http://localhost:15672 
 ```
  
