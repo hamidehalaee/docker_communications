@@ -1,4 +1,4 @@
-# docker_example
+# docker_communications
 I am trying to make connection between 2 containers of docker and communicate messages using message brocker such as Rabbimq docker image.
 
 ## Installation
